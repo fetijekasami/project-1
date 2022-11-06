@@ -1,0 +1,998 @@
+.container{
+    width: 960px; 
+    margin: 0 auto;
+color: white;
+    
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: black; 
+    color: white;
+
+
+}
+.button{
+    align-items: center;
+    appearance: none;
+    background-color: white;
+    border-radius: 24px;
+    border-style: none;
+    box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+    box-sizing: border-box;
+    color: #3c4043;
+    cursor: pointer;
+    display: inline-flex;
+    fill: currentcolor;
+    font-family: "Google Sans"Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    justify-content: center;
+    letter-spacing: .15px;
+    max-width: 100%;
+    overflow: visible;
+    padding: 2px 24px;
+    position: relative;
+    text-align: center;
+    transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1),opacity 15ms linear 30ms,transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
+  
+  }
+  
+.button:hover {
+    background: #F6F9FE;
+    color: gray;
+  }
+  .button a{
+    color: black;
+  }
+ header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(/assets/images/1.jpg);
+    border-radius: 10%;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    margin-top: 10px;
+    height: 60px;
+}
+nav img{
+    width: 250px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+    
+}
+.mobile-menu-icon{
+    display: none;
+
+}
+.nav-links ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    position: relative;
+
+}
+.nav-links ul li a{
+    color: white;
+    font-size: 17px;
+}
+.nav-links a:hover{
+    background-color: #F6F9FE;
+    color: black;
+    border: 3px solid black;
+    
+}
+
+.content{
+    width: 500px;
+    display: block;
+    margin-top: 250px;
+    margin-left: 50px;
+    color: black;
+   
+
+}
+
+  .container .features .card{
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns:repeat(3, 1fr) ; 
+    -ms-grid-column-align: center;
+    gap: 30px;
+    text-align: center;
+    color: white;
+ }  
+
+
+ .card img{
+    width: 70px;
+ } 
+.card1 {
+
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+     border: 1px solid grey; 
+ 
+    box-shadow: 5px 5px 20px grey;
+    transition: .5s;
+    
+}
+.card2 {
+    height: 300px;
+    width: 300px;
+
+    margin: 10px;
+     border: 1px solid grey; 
+ 
+    box-shadow: 5px 5px 20px grey;
+    transition: .5s;
+    
+}
+.card3 {
+    height: 300px;
+    width: 300px;
+
+    margin: 10px;
+     border: 1px solid grey; 
+ 
+    box-shadow: 5px 5px 20px grey;
+    transition: .5s;
+    
+}
+.card4 {
+    height: 300px;
+    width: 300px;
+
+    margin: 10px;
+     border: 1px solid grey; 
+ 
+    box-shadow: 5px 5px 20px grey;
+    transition: .5s;
+    
+}
+.card5 {
+    height: 300px;
+    width: 300px;
+
+    margin: 10px;
+     border: 1px solid grey; 
+ 
+    box-shadow: 5px 5px 20px grey;
+    transition: .5s;
+    
+}
+.card6 {
+    height: 300px;
+    width: 300px;
+
+    margin: 10px;
+     border: 1px solid grey; 
+ 
+    box-shadow: 5px 5px 20px grey;
+    transition: .5s;
+    
+}
+
+.card h4 {
+    visibility: hidden;
+    opacity: 0;
+}
+
+
+.card :hover{
+    cursor: pointer;
+}
+
+.card :hover h4 {
+    opacity: 1;
+    visibility: visible;
+}
+.card :hover img{
+    transform: scale(1.1) rotate(-3deg);
+}
+
+ .introduction img{
+    width: 400px;
+    height: 400px;
+    border: 3px solid grey;
+    border-radius: 50%;
+    outline: 3px solid grey; 
+    
+ }
+ .introduction {
+    /* background-color:rgb(203, 201, 201) ; */
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    color: white;
+    padding-bottom: 80px;
+
+
+ }
+ .introduction p{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    /* padding-top: 30px; */
+    flex-wrap: wrap;
+    padding-right: 30px;
+
+}
+ .introduction ul {
+    width: 300px;
+    list-style-type: none;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+     justify-content: space-between; 
+    flex-wrap: wrap;
+    gap: 15px;
+    padding-right: 30px;
+
+ }
+ .introduction ul li{
+    display: flex;
+    flex-direction: row;
+ 
+ }
+.intro h4{
+    padding-top: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+ .intro-text li:nth-child(1) i{
+    box-shadow: 2px 2px 10px white;
+border: 1px solid gray;
+border-radius: 100%;
+border-width: px;
+background-color: gray
+}
+
+  .faqs{
+
+     border:1px solid rgb(244, 244, 244);
+     border-radius: 7px;
+     box-shadow: 1px solid grey;
+     color: white;
+  }
+  .faqs h3{
+    border-radius: 2px dotted rgb(9, 3, 3);
+    padding: 10px;
+    color: white;
+    text-align: center;
+  }
+  .faqs
+{
+    padding: 10px 50px;
+}
+details{
+    padding: 10px;
+    border-radius: 7px;
+    margin-top: 10px;
+    cursor: pointer;
+    padding-bottom: 40px;
+}
+
+
+details:hover{
+    background-color: gray;
+    opacity: 1;
+    transform: translateX(-5px);
+}
+details[open]:hover{
+    background-color: gray;
+    transition: 1s ; 
+    color:white ;
+
+
+
+    
+}
+
+.container .price-card{
+
+   padding-top: 100px;
+    /* width: 700px; */
+     height: 500px; 
+     /* width: 800px; */
+     padding-right: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: black;
+
+}
+.container .price-card span{
+    color: white;
+}
+.container .price-card ul{
+    list-style-type: none;
+    border: 1px solid grey;
+    gap: 20px;
+    margin: 25px;
+    padding: 50px;
+    background-color: rgb(244, 244, 244);
+    border-radius: 10%;
+    box-shadow: 5px 5px 20px rgb(21, 6, 6);
+    background-image: url(/assets/images/card-background.jpg);
+}
+
+.container .price-card ul li{
+    padding-top: 10px;
+   
+
+
+
+}
+.price-card .price-header{
+    font-size: x-large;
+    text-align: center;
+    color:black;
+    font-weight: bolder;
+    padding-bottom: 40px;
+}
+ .price-card .price2{
+    font-size: larger;
+    text-align: center;
+}
+
+.price i{
+    border: 1px solid rgb(203, 201, 201);
+    border-radius: 100%;
+    border-width: 5px;
+}
+.price i:hover {
+    cursor: pointer;
+    background-color: rgb(90, 88, 88);
+    transition: .1s;}
+    
+    
+.make-appointment{
+ 
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: black;
+  padding-bottom: 40px;
+
+
+}
+.make-appointment h5 h2{
+    color: white;
+}
+.appointment span{
+    padding-bottom: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+.make-appointment form {
+    border: 2px solid white;
+    width: 450px;
+    background-color:rgb(203, 201, 201);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 5px;
+    font-size: large;
+    
+}
+.make-appointment h2{
+   padding-bottom: 15px;
+}
+
+.make-appointment textarea{
+    resize: none;
+    border: 1px solid black;
+}
+.make-appointment .map{
+    width: 500px;
+    border: 3px solid white;
+}
+.make-appointment input{
+    border: 2px solid black;
+    padding: 7px;
+}
+.make-appointment .map a{
+    color: white;
+}
+.make-appointment .button{
+    border: 1px solid black;
+    border-radius: 00%;
+    width:59.49px ;
+    height: 33;
+    background-color: rgb(203, 201, 201);
+
+}
+.make-appointment .button:hover{
+    background: #F6F9FE;
+    color: gray;
+}
+
+section#footer {
+    border-top: 1px solid white; 
+   padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: white;
+
+}
+section#footer a{
+    color: white;
+}
+section#footer img{
+    width: 250px;
+    height: 70px;
+}
+section#footer .logo-end{
+height: 400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
+section#footer .social-media{
+  display: block;
+  border-right: 1px solid white;
+  padding-right: 50px;
+}
+section#footer .social-media ul{
+list-style-type: none;
+display: flex;
+flex-direction: row;
+gap: 15px;
+
+
+}
+section#footer .social-media ul li{
+    border: 1px solid white;
+    border-radius: 100%;
+    width: 20px;
+    text-align: center;
+}
+section#footer .social-media li:hover{
+    background-color: gray;
+   
+}
+section#footer .service{
+    width: 400px;
+    border-right: 1px solid white;
+    padding-right: 50px;
+}
+section#footer .service ul{
+    list-style-type: none;
+gap: 20px;}
+section#footer .address i{
+    display: block;
+    padding: 10px;
+}
+section#footer .service ul a:hover{
+    background-color: gray;
+}
+
+@media (max-width: 400px){
+    body{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        background-color: black; 
+        color: white;
+    
+    
+    }
+    .button{
+        align-items: center;
+        appearance: none;
+        background-color: white;
+        border-radius: 24px;
+        border-style: none;
+        box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+        box-sizing: border-box;
+        color: #3c4043;
+        cursor: pointer;
+        display: inline-flex;
+        fill: currentcolor;
+        font-family: "Google Sans"Arial,sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        height: 40px;
+        justify-content: center;
+        letter-spacing: .15px;
+        max-width: 100%;
+        overflow: visible;
+        padding: 2px 24px;
+        position: relative;
+        text-align: center;
+        transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1),opacity 15ms linear 30ms,transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
+      
+      }
+      
+    .button:hover {
+        background: #F6F9FE;
+        color: gray;
+      }
+      .button a{
+        color: black;
+      }
+     header{
+        min-height: 100vh;
+        width: 100%;
+        background-image: url(/assets/images/1.jpg);
+        border-radius: 5%;
+        background-size: cover;
+        position: relative;
+    }
+    nav{
+        display: flex;
+        padding: 10px;
+        justify-content: space-between;
+        align-items: center;
+        background-color: black;
+        margin-top: 10px;
+        height: 60px;
+
+    }
+    nav img{
+        width: 200px;
+    }
+    .nav-links{
+        flex: 1;
+        text-align: right;
+        display: none;
+        
+        
+    }
+     .mobile-menu-icon{
+        display: block;
+    
+    }
+    .nav-links ul li {
+        list-style-type: none;
+        display: inline-block;
+        padding: 10px;
+        position: relative;
+        visibility: visible;
+    
+    }
+    .nav-links ul li a{
+        color: white;
+        font-size: 17px;
+    }
+    .nav-links a:hover{
+        background-color: #F6F9FE;
+        color: black;
+        border: 3px solid black;
+        
+    }
+    .content{
+        width: 250px;
+        display: block;
+        margin-top: 250px;
+        margin-left: 10px;
+        color: black;
+       
+    
+    }
+    
+      .container .features .card{
+        box-sizing: border-box;
+        display: grid;
+        grid-template-columns:repeat(1, 1fr) ; 
+        -ms-grid-column-align: center;
+        gap: 30px;
+        text-align: center;
+        color: white;
+        padding-left: 10px;
+     }  
+    
+    
+     .card img{
+        width: 70px;
+     } 
+    .card1 {
+    
+        height: 300px;
+        width: 300px;
+        margin: 10px;
+         border: 1px solid grey; 
+     
+        box-shadow: 5px 5px 20px grey;
+        transition: .5s;
+        
+    }
+    .card2 {
+        height: 300px;
+        width: 300px;
+    
+        margin: 10px;
+         border: 1px solid grey; 
+     
+        box-shadow: 5px 5px 20px grey;
+        transition: .5s;
+        
+    }
+    .card3 {
+        height: 300px;
+        width: 300px;
+    
+        margin: 10px;
+         border: 1px solid grey; 
+     
+        box-shadow: 5px 5px 20px grey;
+        transition: .5s;
+        
+    }
+    .card4 {
+        height: 300px;
+        width: 300px;
+    
+        margin: 10px;
+         border: 1px solid grey; 
+     
+        box-shadow: 5px 5px 20px grey;
+        transition: .5s;
+        
+    }
+    .card5 {
+        height: 300px;
+        width: 300px;
+    
+        margin: 10px;
+         border: 1px solid grey; 
+     
+        box-shadow: 5px 5px 20px grey;
+        transition: .5s;
+        
+    }
+    .card6 {
+        height: 300px;
+        width: 300px;
+    
+        margin: 10px;
+         border: 1px solid grey; 
+     
+        box-shadow: 5px 5px 20px grey;
+        transition: .5s;
+        
+    }
+    
+    .card h4 {
+        visibility: hidden;
+        opacity: 0;
+    }
+    
+    
+    .card :hover{
+        cursor: pointer;
+    }
+    
+    .card :hover h4 {
+        opacity: 1;
+        visibility: visible;
+    }
+    .card :hover img{
+        transform: scale(1.1) rotate(-3deg);
+    }
+    
+     .introduction img{
+        width: 350px;
+        height: 400px;
+        border: 3px solid grey;
+        border-radius: 50%;
+        outline: 3px solid grey; 
+        padding: 10px;
+        
+     }
+     .introduction {
+        /* background-color:rgb(203, 201, 201) ; */
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        color: white;
+        padding-bottom: 80px;
+    
+    
+     }
+     .introduction p{
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+        /* padding-top: 30px; */
+        flex-wrap: wrap;
+        text-align: center;
+        /* padding: 10px; */
+    
+    }
+     .introduction ul {
+        width: 300px;
+        list-style-type: none;
+        padding-top: 10px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px;
+        padding-right: 30px;
+    
+     }
+     .introduction ul li{
+        display: flex;
+        flex-direction: row;
+     
+     }
+    .intro h4{
+        padding-top: 50px;
+        text-align: left;
+        font-size: 14px;
+    }
+    
+    
+     .intro-text li:nth-child(1) i{
+        box-shadow: 2px 2px 10px white;
+    border: 1px solid gray;
+    border-radius: 100%;
+    border-width: px;
+    background-color: gray
+    }
+    
+      .faqs{
+    
+          border:1px solid rgb(244, 244, 244); 
+         width: 360px;
+         border-radius: 7px;
+         /* box-shadow: 1px solid grey; */
+         color: white;
+         margin: 0;
+
+      }
+      .faqs h3{
+        /* border-radius: 2px dotted rgb(9, 3, 3); */
+        padding: 10px;
+        color: white;
+        text-align: left;
+      }
+      .faqs
+    {
+         padding: 5px;
+    }
+    details{
+        padding: 10px;
+        border-radius: 7px;
+        margin-top: 10px;
+        cursor: pointer;
+        padding-bottom: 40px;
+    }
+    
+    
+    details:hover{
+        background-color: gray;
+        opacity: 1;
+        transform: translateX(-5px);
+    }
+    details[open]:hover{
+        background-color: gray;
+        transition: 1s ; 
+        color:white ;
+    
+    
+    
+        
+    }
+    
+    .container .price-card{
+    
+       /* padding-top: 300px; */
+         width: 390px; 
+         height: 500px; 
+         /* width: 800px; */
+         /* padding-right: 40px; */
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        color: black;
+        padding-bottom: 250px;
+       
+    
+    }
+    .container .price-card span{
+        color: white;
+    }
+    .container .price-card ul{
+        list-style-type: none;
+        border: 1px solid grey;
+        gap: 20px;
+        margin: 25px;
+        padding: 50px;
+        background-color: rgb(244, 244, 244);
+        border-radius: 10%;
+        box-shadow: 5px 5px 20px rgb(21, 6, 6);
+        background-image: url(/assets/images/card-background.jpg);
+    }
+    
+    .container .price-card ul li{
+        padding-top: 10px;
+       
+    
+    
+    
+    }
+    .price-card .price-header{
+        font-size: x-large;
+        text-align: center;
+        color:black;
+        font-weight: bolder;
+        padding-bottom: 40px;
+    }
+     .price-card .price2{
+        font-size: larger;
+        text-align: center;
+    }
+    
+    .price i{
+        border: 1px solid rgb(203, 201, 201);
+        border-radius: 100%;
+        border-width: 5px;
+    }
+    .price i:hover {
+        cursor: pointer;
+        background-color: rgb(90, 88, 88);
+        transition: .1s;}
+        
+        
+    .make-appointment{
+     
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      color: black;
+      padding-bottom: 40px;
+      padding-top: 200px;
+    
+    
+    }
+    .appointment h6{
+        color: white;
+        visibility: hidden;
+
+    }
+    .appointment span{
+        font-size: 20px;
+        color: white;
+    }
+    
+    .make-appointment form {
+        border: 2px solid white;
+        width: 370px;
+        background-color:rgb(203, 201, 201);
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 5px;
+        font-size: large;
+        text-align: left;
+        
+    }
+    .make-appointment h2{
+       /* padding-bottom: 15px; */
+    }
+    
+    .make-appointment textarea{
+        resize: none;
+        border: 1px solid black;
+    }
+    .make-appointment .map{
+        width: 360px;
+        border: 1px solid white;
+        padding: 5px;
+    }
+    .make-appointment iframe{
+        width: 360px;
+    }
+    .make-appointment input{
+        border: 2px solid black;
+        padding: 7px;
+    }
+    #dirMapLink{
+        /* width: 80px; */
+        color: white;
+        /* background-color: aqua; */
+        visibility: hidden;
+
+    }
+    .make-appointment .button{
+        border: 1px solid black;
+        border-radius: 00%;
+        width:59.49px ;
+        height: 33;
+        background-color: rgb(203, 201, 201);
+    
+    }
+    .make-appointment .button:hover{
+        background: #F6F9FE;
+        color: gray;
+    }
+    
+    section#footer {
+        border-bottom: 1px solid white; 
+       padding-top: 10px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        color: white;
+    
+    }
+    section#footer a{
+        color: white;
+    }
+    section#footer img{
+        width: 300px;
+        height: 100px;
+    }
+    section#footer .logo-end{
+    height: 100px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        /* justify-content: space-between;
+        gap: 30px; */
+    }
+    section#footer span{
+        width: 370px;
+    }
+    section#footer .social-media{
+      display: inline;
+      border-bottom: 1px solid white;
+      padding-right: 10px;
+    }
+    section#footer .social-media ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    
+}
+section#footer h4{
+    padding-top: 20px;
+}
+
+    section#footer .social-media ul li{
+        border: 1px solid white;
+        border-radius: 100%;
+        width: 20px;
+        /* text-align: center; */
+    }
+    section#footer .social-media li:hover{
+        background-color: gray;
+       
+    }
+    section#footer .service{
+        width: 400px;
+        border-bottom: 1px solid white;
+        padding-right: 50px;
+    }
+    section#footer .service ul{
+        list-style-type: none;
+    gap: 20px;}
+    section#footer .address i{
+        display: block;
+        padding: 10px;
+    }
+    section#footer .service ul a:hover{
+        background-color: gray;
+    }
+}
+
+  
